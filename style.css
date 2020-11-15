@@ -19,6 +19,10 @@ body {
   background-size: auto;
 }
 
+#page-wrap {
+  text-align: center;
+}
+
 #aboutbox {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
@@ -46,13 +50,31 @@ p {
   background-color: rosybrown;
   text-align: center;
   padding: 20px;
+  margin-bottom: 200px;
 }
 
 .p_img {
-  border: 1px solid antiquewhite;
+  border: 1px solid oldlace;
   border-radius: 4px;
   padding: 5px;
   width: 150px;
+}
+
+#gitIcon,
+#linkedIcon {
+  padding-left: 15px;
+}
+
+#portCards {
+  background-color: oldlace;
+  border-radius: 15px;
+}
+
+#resumeBtn {
+  /* background-color: rgb(183, 183, 223); */
+  /* background-color: rgb(99, 112, 126); */
+  border-radius: 20px;
+  margin-left: 15px;
 }
 
 /* end portfolio page */
@@ -60,39 +82,24 @@ p {
 /* contact page */
 
 /* contact email form */
-input[type="text"],
-select,
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid rosybrown;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: antiquewhite;
-  color: black;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: palevioletred;
-}
 
 .containerform {
   margin-left: 60px;
   margin-right: 100px;
+  margin-top: 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
   background-color: rosybrown;
   padding: 20px;
+}
+
+#eMail,
+#linkedIcon2 {
+  background-color: oldlace;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  margin-top: 20px;
 }
 /* end email form */
 
