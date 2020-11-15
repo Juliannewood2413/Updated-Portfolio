@@ -28,13 +28,22 @@ $("#resumeBtn").click(function(){
 
 //Contact Page links
 
-$("#eMail").click(function (){
-   $("#eMail").attr('href', 'mailto:juliannewood2413@gmail.com')
-});
+$(function () {
+    $('#eMail').on('click', function (event) {
+        event.preventDefault();
+    //   alert("Huh");
+      var email = 'juliannewood2413@gmail.com';
+      var subject = 'Circle Around';
+      var emailBody = 'Some blah';
+      window.location = 'mailto:' + email + '?subject=' + subject + '&body=' +   emailBody;
+    });
+  });
 
 $("#linkedIcon2").click(function(){
     window.open("https://www.linkedin.com/in/julianne-wood-1392261b5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bk12rQLfXQVuyMAs1Aq70mw%3D%3D")
 })
+
+
 
 
 

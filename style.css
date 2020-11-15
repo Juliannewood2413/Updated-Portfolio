@@ -21,16 +21,19 @@ body {
 
 #page-wrap {
   text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 #aboutbox {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin: 0 auto;
   background-color: rosybrown;
   text-align: left;
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -45,12 +48,14 @@ p {
 .containera {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
-  margin-left: 100px;
+  margin: 0 auto;
   width: 60%;
   background-color: rosybrown;
   text-align: center;
   padding: 20px;
   margin-bottom: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .p_img {
@@ -71,8 +76,6 @@ p {
 }
 
 #resumeBtn {
-  /* background-color: rgb(183, 183, 223); */
-  /* background-color: rgb(99, 112, 126); */
   border-radius: 20px;
   margin-left: 15px;
 }
